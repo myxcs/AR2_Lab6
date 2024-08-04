@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:background="@drawable/btn_send"
+        android:id="@+id/btn_send"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Send notification"
+        />
+
+    <Button
+        android:background="@drawable/btn_send"
+        android:id="@+id/btn_start"
+        android:layout_width="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="50dp"
+        android:text="Start service"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_send"
+        android:id="@+id/btn_stop"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Stop service"
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_send"
+        android:id="@+id/btn_start_background_services"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Start background services"
+        />
+
+
+</LinearLayout>
